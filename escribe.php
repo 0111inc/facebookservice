@@ -10,7 +10,7 @@ $mail->IsSMTP(); // Se especifica a la clase que se utilizará SMTP
   $nombre_emisor="rhodesian";               //Nombre de quien envía el correo
   $contrasena="";          //contraseña de tu cuenta en Gmail
   $correo_destino="destino@gmail.com";      //Correo de quien recibe
-  $nombre_destino="2Jotas";                //Nombre de quien recibe   	
+  $nombre_destino="";                //Nombre de quien recibe   	
 //--------------------------------------------------------
   $mail->SMTPDebug  = 2;                     // Habilita información SMTP (opcional para pruebas)
                                              // 1 = errores y mensajes
